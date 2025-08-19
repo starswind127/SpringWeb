@@ -47,5 +47,6 @@ public class BoardController {
         System.out.println("boardDto = " + boardDto);
         boolean result = boardService.boardUpdate(boardDto);
         return result;
+
     }
 }

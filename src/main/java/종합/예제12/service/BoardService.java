@@ -42,5 +42,6 @@ public class BoardService {
         System.out.println("boardDto = " + boardDto);
         boolean result = boardDao.boardUpdate(boardDto);
         return result;
+
     }
 }
